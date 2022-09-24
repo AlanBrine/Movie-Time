@@ -1,22 +1,22 @@
-import { Link } from "react-router-dom"
-import {Bodycard, Info} from "./style"
+
+import {Bodycard, Info, LinkA} from "./style"
 
 export function Card({id, name, img, avarege}){
 console.log(name)
  return(
-<Link to={`/Detalhes/:${id}`}>
+<LinkA to={`/Detalhes/:${id}`}>
 <Bodycard>
    
-    <img src={`https://image.tmdb.org/t/p/w500${img}`} alt="Fall"/>
+    <img src={`https://image.tmdb.org/t/p/w500${img}`} alt={name}/>
     <Info>
         
-        <h2>Name: {name}</h2> 
-        <span>Avarege:{avarege}</span>
+        <h2>Title: {name}</h2> 
+        <span>Avarege: {avarege}</span>
    
     </Info>
 </Bodycard>
 
-</Link>
+</LinkA>
 
 )
 }

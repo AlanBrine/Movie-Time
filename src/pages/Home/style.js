@@ -4,9 +4,18 @@ import eader from "../../assets/image/popcorn.jpeg"
 
 
 export const Bodyhome = styled.div`
-
 height:100vh;
-background-color:darkgray;
+ font-size:70%;
+
+
+
+
+
+>h1{
+    margin: 5vh 2vw;
+    font-size:2em;
+}
+
 `
 export const Hero = styled.header`
  
@@ -14,19 +23,18 @@ export const Hero = styled.header`
  background-size:cover;
  background-repeat: no-repeat;
 background-position:center center;
- 
-height:100vh;
+height:100vmin;
 
 
 `
 export const Container = styled.section`
-margin:10vh 0;
+margin:5vh 0;
 display: flex;
 flex-wrap:wrap;
 align-items: center;
 justify-content:center;
-gap: 10px;
-padding: 0 2rem;
+gap: 20px;
+padding: 0 10px;
 
 
 

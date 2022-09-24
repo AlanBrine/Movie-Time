@@ -9,6 +9,7 @@ width: 100%;
 text-align: center;
 padding-top: 20px;
 color: white;
+flex:2;
 
  >h2{
     font-size: 1em;

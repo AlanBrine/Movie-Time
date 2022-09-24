@@ -14,7 +14,7 @@ export function Home() {
             <Hero />
             <h1>Filmes Populares</h1>
             <Container>
-                { Api().map((movies) => { return (<Card key={movies.id} id={movies.id} name={movies.title} img={movies.poster_path} avarege={movies.vote_average} />) })
+                {Api().map((movies) => { return (<Card key={movies.id} id={movies.id} name={movies.title} img={movies.poster_path} avarege={movies.vote_average} />) })
                 }
 
             </Container>
