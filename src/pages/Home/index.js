@@ -18,7 +18,7 @@ export function Home() {
                 }
 
             </Container>
-            <Footer />
+            <Footer/>
         </Bodyhome>
 
     )

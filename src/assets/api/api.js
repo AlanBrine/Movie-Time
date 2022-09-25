@@ -10,6 +10,4 @@ export function Api() {
     }, [])
 
 
-    return( movie)
-
-}
+    return( movie)} 

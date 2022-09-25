@@ -4,6 +4,7 @@ import { Detalhes } from "./pages/Detalhes"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
 
+
 function App() {
 
   return (
@@ -20,7 +21,7 @@ function App() {
       </Router> 
      
      
-     
+ 
     </>
 
   );

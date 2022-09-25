@@ -54,16 +54,21 @@ font-weight:bold;
 `
 export const Button = styled.button`
 margin:5vh 10px;
-font-size:0.3em;
+font-size:0.8em;
 padding:10px 20px;
 border:none;
 background-color:#c62623;
 border-radius:10px;
+@media screen and (min-width: 714px){
+    font-size:0.3em;
+}
+
 
 `
 export const Info = styled.section`
 display:flex;
 flex-direction:column;
+align-items:center;
 
 .stats{
     margin-bottom:3vh;

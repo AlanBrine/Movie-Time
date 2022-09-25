@@ -7,16 +7,14 @@ text-decoration: none;
 outline: none;
 color: #000;
 
-
 `
 
 export const Bodycard = styled.div`
 padding: 5px;
 border: 2px solid #080808;
-
-
+flex-shrink:0;
 >img{
-width: 30vw;
+width: 40vw;
 }
 @media screen and (min-width: 948px) {
     >img{
@@ -26,18 +24,17 @@ width: 30vw;
 `
 
 export const Info = styled.div`
-
 font-size:2.6vw;
+width: 40vw;
 
 
-width: 20vw;
 >h2{
 margin: 4px 2px;
-
     font-size: 1em;
 }
 @media screen and (min-width: 725px) {
     font-size:1.5vw;
+    width:20vw
 }
 
 

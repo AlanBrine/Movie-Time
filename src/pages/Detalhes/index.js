@@ -6,7 +6,7 @@ import { Body, Button, LinkBnt, Info, Container } from "./style"
 
 
 
-export function Detalhes() {
+export  function Detalhes() {
     const { id } = useParams()
     const value = id.replace(":", " ")
     var title
@@ -19,7 +19,7 @@ export function Detalhes() {
         sinops = movies.overview;
         average = movies.vote_average
         hightImg = movies.poster_path
-    })
+})
 
 
     return (
