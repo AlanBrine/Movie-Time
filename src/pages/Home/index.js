@@ -9,7 +9,8 @@ export function Home() {
 
 
     return (
-        <Bodyhome>
+    
+       <Bodyhome>
             <Navbar name="Home" />
             <Hero />
             <h1>Filmes Populares</h1>
@@ -18,8 +19,9 @@ export function Home() {
                 }
 
             </Container>
-            <Footer/>
+          <Footer />  
         </Bodyhome>
 
+              
     )
 }

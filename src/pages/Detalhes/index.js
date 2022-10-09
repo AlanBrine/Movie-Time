@@ -36,7 +36,7 @@ export  function Detalhes() {
                 <p>
                     <strong>Sinopse:</strong> {sinops}
                 </p>
-               <Button> <LinkBnt to="/">Voltar para Home </LinkBnt></Button>
+               <Button> <LinkBnt to="/"> Voltar para Home </LinkBnt></Button>
                 </Info>
                  
                 </Container>

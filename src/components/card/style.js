@@ -13,6 +13,8 @@ export const Bodycard = styled.div`
 padding: 5px;
 border: 2px solid #080808;
 flex-shrink:0;
+margin:1em;
+
 >img{
 width: 40vw;
 }
@@ -24,7 +26,7 @@ width: 40vw;
 `
 
 export const Info = styled.div`
-font-size:2.6vw;
+font-size:min(23px, max(1.5vw + 7px));
 width: 40vw;
 
 

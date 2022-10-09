@@ -5,7 +5,7 @@ import eader from "../../assets/image/popcorn.jpeg"
 
 export const Bodyhome = styled.div`
 height:100vh;
- font-size:min(16px, max(6vw, 6px));
+ font-size:min(36px, max(2vw + 2px));
 
 
 >h1{
@@ -29,7 +29,7 @@ margin:5vh 0;
 display: flex;
 flex-wrap:wrap;
 justify-content:center;
-gap: 25px;
+
 
 
 

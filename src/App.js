@@ -1,4 +1,4 @@
-import { Globalstyle } from './style/globalStyle';
+import { Globalstyle } from './assets/style/globalStyle';
 import { Home } from "./pages/Home"
 import { Detalhes } from "./pages/Detalhes"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
